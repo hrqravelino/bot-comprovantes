@@ -21,7 +21,7 @@ SHEET_NAME        = os.environ.get("SHEET_NAME", "Lançamentos")
 GOOGLE_CREDS_JSON = os.environ["GOOGLE_CREDENTIALS_JSON"]
 
 GEMINI_URL = (
-    "https://generativelanguage.googleapis.com/v1beta/models/"
+    "https://generativelanguage.googleapis.com/v1/models/"
     "gemini-1.5-flash:generateContent?key=" + "{key}"
 )
 
