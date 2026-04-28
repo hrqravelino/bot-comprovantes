@@ -22,7 +22,7 @@ GOOGLE_CREDS_JSON = os.environ["GOOGLE_CREDENTIALS_JSON"]
 
 GEMINI_URL = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
-    "gemini-2.0-flash:generateContent?key=" + "{key}"
+    "gemini-1.5-flash-latest:generateContent?key=" + "{key}"
 )
 
 # ── Google Sheets ────────────────────────────────────────────────────────────
